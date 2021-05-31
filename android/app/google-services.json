@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189741075501",
+    "project_id": "dulcet-bucksaw-306120",
+    "storage_bucket": "dulcet-bucksaw-306120.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189741075501:android:c368a7608f5c13abe2fca4",
+        "android_client_info": {
+          "package_name": "com.xcodeteam.newecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189741075501-s6qm5asjnm55vosnfeemh85d668qnclo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumfSBDI99KcWU87zYf6SyYKM2mSGqJPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189741075501-s6qm5asjnm55vosnfeemh85d668qnclo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
