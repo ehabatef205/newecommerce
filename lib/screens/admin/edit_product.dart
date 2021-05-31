@@ -70,9 +70,9 @@ class _EditProductState extends State<EditProduct> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, ManageProducts.id);
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
