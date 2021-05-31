@@ -14,9 +14,9 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, HomePage.id);
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
