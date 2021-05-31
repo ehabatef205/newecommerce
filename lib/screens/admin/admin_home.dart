@@ -18,9 +18,9 @@ class _AdminHomeState extends State<AdminHome> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         SystemNavigator.pop();
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
