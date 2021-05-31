@@ -21,9 +21,9 @@ class _ManageProductsState extends State<ManageProducts> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, AdminHome.id);
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
