@@ -42,9 +42,9 @@ class _AdminLoginState extends State<AdminLogin> {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, LoginScreen.id);
-        return null;
       },
       child: Scaffold(
         key: _globalKey,
