@@ -12,9 +12,9 @@ class OrderDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     String documentId = ModalRoute.of(context).settings.arguments;
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, OrdersScreen.id);
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
