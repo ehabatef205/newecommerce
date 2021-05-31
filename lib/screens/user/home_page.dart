@@ -33,9 +33,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     List<Product> products = Provider.of<CartItem>(context).products;
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: () {
         SystemNavigator.pop();
-        return null;
       },
       child: DefaultTabController(
         length: 4,
