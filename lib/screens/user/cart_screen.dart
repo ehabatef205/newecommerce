@@ -21,9 +21,9 @@ class CartScreen extends StatelessWidget {
     final double appBarHeight = AppBar().preferredSize.height;
     final double statusBarHeight = MediaQuery.of(context).padding.top;
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: () {
         Navigator.pushNamed(context, HomePage.id);
-        return null;
       },
       child: Scaffold(
         resizeToAvoidBottomInset: false,
