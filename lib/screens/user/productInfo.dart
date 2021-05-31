@@ -21,9 +21,9 @@ class _ProductInfoState extends State<ProductInfo> {
   Widget build(BuildContext context) {
     Product product = ModalRoute.of(context).settings.arguments;
     return WillPopScope(
+      // ignore: missing_return
       onWillPop: (){
         Navigator.pushNamed(context, HomePage.id);
-        return null;
       },
       child: Scaffold(
         appBar: AppBar(
